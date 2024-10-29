@@ -1,0 +1,5 @@
+@font-face {
+    font-family: 'Helvetica'; 
+    src: url('../fonts/Helvetica.woff2') format('woff2');
+    font-weight: 300,400,500,600,700,800;
+}

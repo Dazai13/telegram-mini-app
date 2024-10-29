@@ -1,0 +1,29 @@
+@import "../styles/global.css";
+/* Основные стили */
+.header {
+    font-family: 'Helvetica'; 
+    background-color: #212031;
+    color: #fff;
+    height:56px;
+}
+
+.header__nav {
+    height: 100%;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    padding: 0 17px;
+}   
+
+.header__link_close{
+    color: #fff;
+    text-decoration: none;
+    font-size:16px;
+    font-weight:400;
+}
+.header__link_title{
+    color: #fff;
+    text-decoration: none;
+    font-size:20px;
+    font-weight:700;
+}

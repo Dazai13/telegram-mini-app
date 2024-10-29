@@ -1,0 +1,147 @@
+@import '../styles/mainWindow.css';
+
+.mainWindow{
+    background: #212031;
+}
+
+.teamInner{
+    font-family: 'Helvetica'; 
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    padding-top:24px;
+}
+.myTeam{
+    width: 359px;
+    height: 213px;
+    border-radius: 10px;
+    background: linear-gradient(70.61deg, #000000 0%, #212031 100%);
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.myTeamTitle{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width: 359px;
+    height: 64px;
+    border-radius: 10px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 30px;
+    background: linear-gradient(90deg, #000000 0%, #212031 100%);
+}
+.tab-container {
+    display: flex;
+    align-items: center;
+    width:161px;
+    height:33px;
+}
+
+.tab {
+display: flex;
+align-items: center;
+font-size: 10px;
+font-weight: 400;
+line-height: 10px;
+
+}
+
+.tab-dark {
+width:150px;
+height:33px;
+background-color: #1c1c1c;
+color: white;
+border-radius: 25px 0 0 25px; 
+padding-left: 8px;
+}
+
+.tab-light {
+width:89px;
+height:33px;
+background-color: #ffffff;
+color: black;
+font-weight: bold;
+border-radius: 25px;
+margin-left: -77px;
+padding-left:18px;
+}
+.myTeamLobby{
+display:flex;
+flex-direction:column;
+gap:11px;
+}
+.row{
+display:flex;
+flex-direction:row;
+gap: 13px;
+}
+.friends{
+margin-top:16px;
+background: #000000;
+width: 359px;
+height: 434px;
+border-radius: 10px;
+display:flex;
+flex-direction:column;
+}
+.friendsTitle{
+    margin-top:27px;
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+}
+.listFriends{
+    margin-top:36px;
+    display:flex;
+    flex-direction:column;
+    gap:6px;
+}
+.friedRow{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    gap:31px;
+}
+.friendBox{
+    width: 150px;
+    height: 33px;
+    background: linear-gradient(90deg, #1B1B1B 0%, #212031 100%);
+    border-radius: 5px;
+    display:flex;  
+    align-items:center;
+    justify-content:start;  
+    gap:6px;
+}
+.logo{
+    width:25px;
+    margin-left:4px;
+}
+.slider{
+    display:flex;
+    align-items:center;
+    gap:6px;
+    margin-left:14px;
+    margin-top:24px;
+}
+.inviter{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    margin-top:10px;
+    gap:65px;
+}
+.Boldinvite{
+font-size: 12px;
+font-weight: 700;
+line-height: 10px;
+}
+.inviteText{
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 10px;
+}

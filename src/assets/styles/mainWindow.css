@@ -1,0 +1,11 @@
+.mainWindow{
+    height:100vh;
+    background: linear-gradient(179.98deg, #000000 0.01%, #212031 99.99%);
+
+}
+.mainWindow_container{
+    max-width: 393px;
+    margin:0 auto;
+    padding:0 16px;
+    color: #fff
+}

@@ -1,0 +1,337 @@
+@import "../styles/global.css";
+.homeInner{
+    padding-top:15px;
+    font-family: 'Helvetica'; 
+    display:flex;
+    flex-direction: column;
+    align-items:center
+}
+.nav{
+    display:flex;
+    flex-direction:column;
+    gap:16px;
+}
+.row{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    gap:17px;
+}
+.rowItem{
+    position: relative;
+    text-align: center;
+    color: #fff;
+    background: none;
+    border: none;
+}
+.imageText {
+    position: absolute;
+    letter-spacing: 1px;
+    font-size:9px;
+    font-weight:700;
+    line-height:18px;
+}
+.imageText1{
+    width:69px;
+    left: 21px;
+    top:104px;
+}
+.imageText2{
+    width:94px;
+    left: 9px;
+    top:116px;
+}
+.imageText3{
+    width:101px;
+    left: 11px;
+    top:116px;
+}
+.imageText4{
+    width:53px;
+    left: 59px;
+    top:104px;
+}
+.imageText5{
+    width:95px;
+    left: 40px;
+    top:104px;
+}
+.rowItem_up-Image{
+    width: 110px;
+    height: 140px;
+}
+.rowItem_down-Imag{
+    width: 171px;
+    height: 134px;
+}
+.systemButton{
+    margin-top:19px;
+    width: 359px;
+    height: 58px;
+}
+.systemButton_Inner{
+    display: flex;
+    height:100%;
+    background-color:#000;
+    border-radius:10px;
+    align-items:center;
+    justify-content:space-between;
+    padding: 0 10px;
+}
+.systemText{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+}
+.user{
+    margin-top: 18px;
+}
+.userInner{
+    display: flex;
+    flex-direction:column;
+    height:100%;
+}
+.columns{
+    display:flex;
+    flex-direction:row;
+    gap:16px;
+}
+.rightColumns{
+    display:flex;
+    flex-direction:column;
+}
+.levelsButton{
+    width: 171px;
+    height: 117px;
+}
+.newsButton{
+    width: 171px;
+    height:58px;
+}
+.newsButtonInner{
+    height: 100%;
+    padding:0 10px;
+    border-radius:10px;
+    display:flex;
+    align-items: center;
+    background-color: #000;
+    justify-content: space-between;
+}
+.newsText{
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 18px;
+}
+.fire{
+    position:absolute;
+    width:99px;
+    left: 36px;
+    top: -39px;
+}
+.levelsButton{
+    width: 171px;
+    height: 117px;
+    margin-top:52px;
+}
+.levelsButton_Inner{
+    display:flex;
+    position:relative;
+    background: linear-gradient(180deg, #000000 0%, #212031 100%);
+    border-radius: 10px;
+    height:100%;
+    align-items: end;
+}
+.levelsButtonText{
+    margin-left:17px;
+    margin-bottom:17px;
+}
+.leftColumns{
+    width: 172px;
+    height: 261px;
+}
+.leftColumnsInner{
+    background: linear-gradient(180deg, #000000 0%, #212031 100%);
+    height:100%;
+    border-radius:10px;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+.userInfo{
+    margin-top:10px;
+    width: 100%;
+}
+.logoInner{
+    width:31px;
+    height:31px;
+    background: #1B1B1B;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:10px;
+}
+.logoPhoto{
+    width:25px;
+    border-radius:2px;
+}
+.nickname{
+    width: 116px;
+    height: 31px;
+    background: linear-gradient(90deg, #1B1B1B 0%, #060608 100%);
+    border-radius: 5px;
+    display:flex;
+    align-items:center;
+}
+.logo{
+    display:flex;
+    flex-direction:row;
+    gap:5px;
+}
+.nicknameText{
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 10px;
+    margin-left:7px;
+}
+.invite{
+    margin-top:6px;
+    width: 152px;
+    height: 47px;
+    background: linear-gradient(90deg, #FFCB33 0%, #040404 100%);
+    border-radius: 5px;
+    display:flex;
+    flex-direction:column;
+}
+.inviteInfo{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    margin: 0 10px;
+    margin-top:7px;
+}
+.inviteTitleText{
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 10px;
+    color: #000000;
+    margin-top:10px;
+    margin-left:10px;
+}
+.count{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 10px;
+}
+.id{
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 10px;
+}
+.idNumber{
+    font-size: 8px;
+    font-weight: 300;
+    line-height: 10px;
+}
+.team{
+    margin-top:6px;
+    display:flex;
+    flex-direction:column;
+    width: 152px;
+    height: 145px;
+    background: linear-gradient(180deg, #1B1B1B 0%, #212031 100%);
+    border-radius:5px;
+}
+.teamItem{
+    display:flex;
+    flex-direction:row;
+}
+.teamItemText{
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 10px;
+}
+.teamItemForm{
+    width: 74px;
+    height: 14px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    border-radius:3px;
+}
+.teamItemFormText{
+    font-size: 6px;
+    font-weight: 400;
+    line-height: 10px;
+    color:#000;
+    margin-left:4px;
+}
+.teamItemFormNumber{
+    font-size: 8px;
+    color:#000;
+    font-weight: 400;
+    line-height: 10px;
+    margin-right:4px;
+}
+.color1{
+    background: #FFCB33;
+}
+.color2{
+    background: #FFD559;
+}
+.color3{
+    background: #FFE38B;
+}
+.color4{
+    background: #FFEFBC;
+}
+.color5{
+    background: #FFF6D9;
+}
+.color6{
+    background: #FFF6D9;
+}
+.teamTitle{
+    width:113px;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 10px;
+    margin-left:20px;
+    margin-top:8px;
+}
+.teamItems{
+    display:flex;
+    flex-direction:column;
+    margin-top:13px;
+    align-items:center;
+}
+.teamItem{
+    display:flex;
+    gap:28px;
+    align-items:center;
+    margin-bottom:4px;
+}
+
+.footer{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-between;
+    margin-top:30px;
+}
+.footerText{
+    width:147px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+}
+.fatText{
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+}
+.footerTitle{
+font-size: 16px;
+font-weight: 700;
+line-height: 18px;
+}
