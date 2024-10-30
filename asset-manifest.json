@@ -1,23 +1,16 @@
 {
   "files": {
     "main.css": "/telegram-mini-app/static/css/main.a4536e34.css",
-    "main.js": "/telegram-mini-app/static/js/main.1fe02946.js",
+    "main.js": "/telegram-mini-app/static/js/main.d0ec992f.js",
     "static/js/453.c7123701.chunk.js": "/telegram-mini-app/static/js/453.c7123701.chunk.js",
-    "static/media/image 26.png": "/telegram-mini-app/static/media/image 26.74b415c1b7221a2b754a.png",
-    "static/media/image 29.png": "/telegram-mini-app/static/media/image 29.5f5e93d68ebba67ceaa9.png",
-    "static/media/image 30.png": "/telegram-mini-app/static/media/image 30.34794481fd4ba3e1b025.png",
     "static/media/Helvetica.woff2": "/telegram-mini-app/static/media/Helvetica.fbff4e73a10216586fec.woff2",
-    "static/media/image 28.png": "/telegram-mini-app/static/media/image 28.78087cb94c295b7e7188.png",
-    "static/media/image 27.png": "/telegram-mini-app/static/media/image 27.782d29d87235f04801a8.png",
-    "static/media/flash-iso-gradient.png": "/telegram-mini-app/static/media/flash-iso-gradient.23f64bd7fdf7a002943e.png",
-    "static/media/image 31.png": "/telegram-mini-app/static/media/image 31.c7f318ddccf2457c68d4.png",
     "index.html": "/telegram-mini-app/index.html",
     "main.a4536e34.css.map": "/telegram-mini-app/static/css/main.a4536e34.css.map",
-    "main.1fe02946.js.map": "/telegram-mini-app/static/js/main.1fe02946.js.map",
+    "main.d0ec992f.js.map": "/telegram-mini-app/static/js/main.d0ec992f.js.map",
     "453.c7123701.chunk.js.map": "/telegram-mini-app/static/js/453.c7123701.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a4536e34.css",
-    "static/js/main.1fe02946.js"
+    "static/js/main.d0ec992f.js"
   ]
 }
