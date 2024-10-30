@@ -46,6 +46,8 @@
     background: linear-gradient(90deg, #212031 0%, #000000 100%);
     box-shadow: 0px 4px 4px 0px #00000040;
     justify-content: space-between;
+    border: none;
+    color: #fff;
 }
 .paymentLot{
     font-size: 15px;
