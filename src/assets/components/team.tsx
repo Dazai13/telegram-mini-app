@@ -45,61 +45,61 @@ const MyTeam: React.FC = () => {
                 <div className="listFriends">
                     <div className="friedRow">
                         <div className="friendBox">
-                            <img className="logo" src={logo} alt="" />
+                            <img className="logo" style = {{ width:"25px", height: '25px'}} src={logo} alt="" />
                             <div className="name"><span>@nickname</span></div>
                         </div>
                         <div className="friendBox">
-                            <img className="logo" src={logo} alt="" />
-                            <div className="name"><span>@nickname</span></div>
-                        </div>
-                    </div>
-                    <div className="friedRow">
-                        <div className="friendBox">
-                            <img className="logo" src={logo} alt="" />
-                            <div className="name"><span>@nickname</span></div>
-                        </div>
-                        <div className="friendBox">
-                            <img className="logo" src={logo} alt="" />
+                            <img className="logo" style = {{ width:"25px", height: '25px'}} src={logo} alt="" />
                             <div className="name"><span>@nickname</span></div>
                         </div>
                     </div>
                     <div className="friedRow">
                         <div className="friendBox">
-                            <img className="logo" src={logo} alt="" />
+                            <img className="logo" style = {{ width:"25px", height: '25px'}} src={logo} alt="" />
                             <div className="name"><span>@nickname</span></div>
                         </div>
                         <div className="friendBox">
-                            <img className="logo" src={logo} alt="" />
-                            <div className="name"><span>@nickname</span></div>
-                        </div>
-                    </div>
-                    <div className="friedRow">
-                        <div className="friendBox">
-                            <img className="logo" src={logo} alt="" />
-                            <div className="name"><span>@nickname</span></div>
-                        </div>
-                        <div className="friendBox">
-                            <img className="logo" src={logo} alt="" />
+                            <img className="logo" style = {{ width:"25px", height: '25px'}} src={logo} alt="" />
                             <div className="name"><span>@nickname</span></div>
                         </div>
                     </div>
                     <div className="friedRow">
                         <div className="friendBox">
-                            <img className="logo" src={logo} alt="" />
+                            <img className="logo" style = {{ width:"25px", height: '25px'}} src={logo} alt="" />
                             <div className="name"><span>@nickname</span></div>
                         </div>
                         <div className="friendBox">
-                            <img className="logo" src={logo} alt="" />
+                            <img className="logo" style = {{ width:"25px", height: '25px'}} src={logo} alt="" />
                             <div className="name"><span>@nickname</span></div>
                         </div>
                     </div>
                     <div className="friedRow">
                         <div className="friendBox">
-                            <img className="logo" src={logo} alt="" />
+                            <img className="logo" style = {{ width:"25px", height: '25px'}} src={logo} alt="" />
                             <div className="name"><span>@nickname</span></div>
                         </div>
                         <div className="friendBox">
-                            <img className="logo" src={logo} alt="" />
+                            <img className="logo" style = {{ width:"25px", height: '25px'}} src={logo} alt="" />
+                            <div className="name"><span>@nickname</span></div>
+                        </div>
+                    </div>
+                    <div className="friedRow">
+                        <div className="friendBox">
+                            <img className="logo" style = {{ width:"25px", height: '25px'}} src={logo} alt="" />
+                            <div className="name"><span>@nickname</span></div>
+                        </div>
+                        <div className="friendBox">
+                            <img className="logo" style = {{ width:"25px", height: '25px'}} src={logo} alt="" />
+                            <div className="name"><span>@nickname</span></div>
+                        </div>
+                    </div>
+                    <div className="friedRow">
+                        <div className="friendBox">
+                            <img className="logo" style = {{ width:"25px", height: '25px'}} src={logo} alt="" />
+                            <div className="name"><span>@nickname</span></div>
+                        </div>
+                        <div className="friendBox">
+                            <img className="logo" style = {{ width:"25px", height: '25px'}} src={logo} alt="" />
                             <div className="name"><span>@nickname</span></div>
                         </div>
                     </div>
@@ -122,7 +122,7 @@ const MyTeam: React.FC = () => {
                     <div className="inviteText"><span className='Boldinvite'>МЕНЯ</span> ПРИГЛАСИЛИ</div>
                     <div className="friend">
                         <div className="friendBox">
-                            <img className="logo" src={logo} alt="" />
+                            <img className="logo" style = {{ width:"25px", height: '25px'}} src={logo} alt="" />
                             <div className="name"><span>@nickname</span></div>
                         </div>
                     </div>
