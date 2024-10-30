@@ -1,0 +1,127 @@
+.firstScreenInner{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+.firstScreenUser{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    width: 359px;
+    height: 66px;
+    background: linear-gradient(90deg, #212031 0%, #000000 100%);
+    border-radius:10px;
+    gap:56px;
+    margin-top:24px;
+}
+.firstScreenLogo{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    margin-left:19px;
+    gap:16px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 10px;
+}
+.firstScreenUnder{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    margin-top:242px;
+    width:100vw;
+    background: linear-gradient(180deg, #212031 0%, #000000 100%);
+    height: 510px;
+    border-radius: 25px 25px 0px 0px;    
+}
+.firstScreenUnderButton{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content: space-between;
+    margin-top:20px;
+    color:#fff;
+    width: 359px;
+    height: 54px;
+    border-radius: 15px;
+    background: linear-gradient(90deg, #5376FF 0%, #324799 100%);
+    border:none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+}
+.firstScreenUnderButton_Down{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content: space-between;
+    margin-top:20px;
+    color:#fff;
+    width: 359px;
+    height: 54px;
+    border-radius: 15px;
+    background: linear-gradient(90deg, #5376FF 0%, #324799 100%);
+    border:none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+}
+.buttonBack{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content: center;
+    color:#fff;
+    width: 123px;
+    height: 54px;
+    border-radius: 15px;
+    background: linear-gradient(90deg, #5376FF 0%, #324799 100%);
+    border:none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+}
+.secondScreenInner{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    margin-top:24px;
+}
+.profile{
+    width: 359px;
+    height: 331px;    
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 1);
+}
+.profileLogo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 359px;
+    height: 66px;
+    background: linear-gradient(90deg, #212031 0%, #000000 100%);
+    border-radius: 10px;
+}
+.profileLogoInner{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    margin-left:19px;
+    gap:16px;
+}
+.profileUnder{
+    display:flex;
+    width:100%;
+    flex-direction:column;
+    align-items:center;
+    margin-top:67px;
+    gap:45px;
+}
+.profileUnderRow{
+    display:flex;
+    width: 100%;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-between;
+}

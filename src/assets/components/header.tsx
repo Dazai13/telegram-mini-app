@@ -6,9 +6,10 @@ interface HeaderProps {
     onGoToPayment: () => void;
     onGoToMyTeam: () => void;
     onGoToNeuroAudio: () => void;
+    onGoToSetting: () => void;
 }
 
-const Header: React.FC<HeaderProps> = ({ onGoToHome, onGoToPayment, onGoToMyTeam, onGoToNeuroAudio }) => {
+const Header: React.FC<HeaderProps> = ({ onGoToHome, onGoToPayment, onGoToMyTeam, onGoToNeuroAudio, onGoToSetting }) => {
     return (
         <header className="header">
             <nav className="header__nav">
@@ -16,7 +17,7 @@ const Header: React.FC<HeaderProps> = ({ onGoToHome, onGoToPayment, onGoToMyTeam
                     <span>Close</span>
                 </a>
                     <a href="#title" id = "#title" className="header__link_title"><span>Bersana</span></a>
-                    <a href="#settings" id = "#settings" className="header__link">
+                    <a href="#settings" id = "#settings" className="header__link" onClick={onGoToSetting}>
                         <span>
                             <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M11 7.25C10.0054 7.25 9.05161 7.64509 8.34835 8.34835C7.64509 9.05161 7.25 10.0054 7.25 11C7.25 11.9946 7.64509 12.9484 8.34835 13.6517C9.05161 14.3549 10.0054 14.75 11 14.75C11.9946 14.75 12.9484 14.3549 13.6517 13.6517C14.3549 12.9484 14.75 11.9946 14.75 11C14.75 10.0054 14.3549 9.05161 13.6517 8.34835C12.9484 7.64509 11.9946 7.25 11 7.25ZM8.75 11C8.75 10.4033 8.98705 9.83097 9.40901 9.40901C9.83097 8.98705 10.4033 8.75 11 8.75C11.5967 8.75 12.169 8.98705 12.591 9.40901C13.0129 9.83097 13.25 10.4033 13.25 11C13.25 11.5967 13.0129 12.169 12.591 12.591C12.169 13.0129 11.5967 13.25 11 13.25C10.4033 13.25 9.83097 13.0129 9.40901 12.591C8.98705 12.169 8.75 11.5967 8.75 11Z" fill="white"/>

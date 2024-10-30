@@ -5,6 +5,7 @@ import Home from './assets/components/home';
 import Payment from './assets/components/payment';
 import MyTeam from './assets/components/team';
 import NeuroAudio from './assets/components/NeuroAudio';
+import Setting from './assets/components/settings'
 
 const App: React.FC = () => {
     const [currentScreen, setCurrentScreen] = useState("Home");
@@ -13,6 +14,7 @@ const App: React.FC = () => {
     const goToPayment = () => setCurrentScreen("Payment");
     const goToMyTeam = () => setCurrentScreen("MyTeam");
     const goToNeuroAudio = () => setCurrentScreen('NeuroAudio');
+    const goToSetting = () => setCurrentScreen('Setting');
 
     const renderScreen = () => {
         switch (currentScreen) {
@@ -24,6 +26,8 @@ const App: React.FC = () => {
                 return <MyTeam />;
             case "NeuroAudio":
                 return <NeuroAudio />;
+            case "Setting":
+                return <Setting />;
             default:
                 return <Home onNavigate={setCurrentScreen} />;
         }
@@ -39,6 +43,8 @@ const App: React.FC = () => {
                 return 'rgba(33, 32, 49, 1)'; 
             case "NeuroAudio":
                 return 'linear-gradient(179.98deg, #212031 0%, #020202 100%)';
+            case "Setting":
+                return 'linear-gradient(179.98deg, #212031 0%, #020202 100%)';
             default:
                 return 'rgba(33, 32, 49, 1))';
         }
@@ -51,6 +57,7 @@ const App: React.FC = () => {
                 onGoToPayment={goToPayment} 
                 onGoToMyTeam={goToMyTeam} 
                 onGoToNeuroAudio={goToNeuroAudio}
+                onGoToSetting={goToSetting}
             />
             <div className="mainWindow" style={{ background: getBackgroundColor() }}>
                 <div className="mainWindow_container">
