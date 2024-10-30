@@ -47,14 +47,14 @@ const NeuroAudio: React.FC = () => {
                         <span className='neuroAudioText'>
                             ЕЖЕДНЕВНЫЕ УПРАЖНЕНИЯ ПОМОГАЮТ НАУЧИТЬСЯ КОНТРОЛИРОВАТЬ <strong>МЫСЛИ И ЭМОЦИИ</strong>, ЧТО УВЕЛИЧИВАЕТ ПРОДУКТИВНОСТЬ И СНИЖАЕТ СТРЕСС.
                         </span>
-                        <button className="PayButton"><span style={{ fontSize: "12px", fontWeight: "400", lineHeight: '18px' }}>Оплатить <span style={{ fontSize: "12px", fontWeight: "700", lineHeight: '18px' }}>7 USDT</span></span></button>
+                        <button style={{marginTop:'10px', marginBottom:'8px'}}className="PayButton"><span style={{ fontSize: "12px", fontWeight: "400", lineHeight: '18px' }}>Оплатить <span style={{ fontSize: "12px", fontWeight: "700", lineHeight: '18px' }}>7 USDT</span></span></button>
                     </div>
                 }
             />
             <Dropdown
                 title="ФИНАНСОВОЕ БЛАГОПОЛУЧИЕ"
                 blockNumber={2}
-                content={<button className="PayButton">СЛУШАТЬ</button>}
+                content={<button style={{marginTop:'4px', marginBottom:'10px'}} className="PayButton">СЛУШАТЬ</button>}
             />
             <Dropdown
                 title="НОВЫЙ УРОВЕНЬ"
