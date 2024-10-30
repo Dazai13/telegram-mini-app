@@ -17,7 +17,7 @@ const Home: React.FC<HomeProps> = ({ onNavigate }) => {
         <div className='homeInner'>
             <div className='nav'>
                 <div className="row">
-                    <button className="rowItem">
+                    <button onClick={() => onNavigate("NeuroAudio")} className="rowItem">
                         <img  className = 'rowItem_up-Image' src={img1} alt="" />
                         <span className='imageText imageText1'>НЕЙРО ПРОГРАММЫ</span>
                     </button>

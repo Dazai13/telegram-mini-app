@@ -1,9 +1,5 @@
 @import "../styles/global.css";
-@import '../styles/mainWindow.css';
 
-.mainWindow{
-    background: linear-gradient(179.98deg, #212031 24.19%, #0F0F16 99.98%);
-}
 .paymentInner{
 
     font-family: 'Helvetica'; 

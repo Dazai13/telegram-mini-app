@@ -5,9 +5,10 @@ interface HeaderProps {
     onGoToHome: () => void;
     onGoToPayment: () => void;
     onGoToMyTeam: () => void;
+    onGoToNeuroAudio: () => void;
 }
 
-const Header: React.FC<HeaderProps> = ({ onGoToHome, onGoToPayment, onGoToMyTeam }) => {
+const Header: React.FC<HeaderProps> = ({ onGoToHome, onGoToPayment, onGoToMyTeam, onGoToNeuroAudio }) => {
     return (
         <header className="header">
             <nav className="header__nav">
