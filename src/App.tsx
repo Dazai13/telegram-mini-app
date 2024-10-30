@@ -1,14 +1,21 @@
 import React, { useState } from 'react';
 import './assets/styles/mainWindow.css';
-import Header from './assets/components/header';
 import Home from './assets/components/home';
 import Payment from './assets/components/payment';
 import MyTeam from './assets/components/team';
 import NeuroAudio from './assets/components/NeuroAudio';
 import Setting from './assets/components/settings'
 
+interface AppProps {
+    onGoToHome: () => void;
+    onGoToPayment: () => void;
+    onGoToMyTeam: () => void;
+    onGoToNeuroAudio: () => void;
+    onGoToSetting: () => void;
+}
+
 const App: React.FC = () => {
-    const [currentScreen, setCurrentScreen] = useState("Home");
+    const [currentScreen, setCurrentScreen] = useState("Home");  
 
     const goToHome = () => setCurrentScreen("Home");
     const goToPayment = () => setCurrentScreen("Payment");
@@ -52,13 +59,6 @@ const App: React.FC = () => {
 
     return (
         <div className="Window">
-            <Header 
-                onGoToHome={goToHome} 
-                onGoToPayment={goToPayment} 
-                onGoToMyTeam={goToMyTeam} 
-                onGoToNeuroAudio={goToNeuroAudio}
-                onGoToSetting={goToSetting}
-            />
             <div className="mainWindow" style={{ background: getBackgroundColor() }}>
                 <div className="mainWindow_container">
                     {renderScreen()}
