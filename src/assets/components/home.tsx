@@ -18,26 +18,47 @@ const Home: React.FC<HomeProps> = ({ onNavigate }) => {
             <div className='nav'>
                 <div className="row">
                     <button onClick={() => onNavigate("NeuroAudio")} className="rowItem">
-                        <img  className = 'rowItem_up-Image' src={img1} alt="" />
-                        <span className='imageText imageText1'>НЕЙРО ПРОГРАММЫ</span>
+                    <div className="imageContainer" style={{width: '110px', height:'140px'}}>
+                            <img className="rowItem_up-Image" style={{width: '110px', height:'140px'}} src={img1} alt="" />
+                            <div className="textOverlay" style={{height: '32px'}}>
+                                <span className="imageText imageText1">НЕЙРО ПРОГРАММЫ</span>
+                            </div>
+                        </div>
                     </button>
                     <button className="rowItem">
-                        <img className = 'rowItem_up-Image' src={img2} alt="" /> 
-                        <span className='imageText imageText2'>РАСПРЕДЕЛЕНИЕ</span>      
+                        <div className="imageContainer" style={{width: '110px', height:'140px'}}>
+                            <img className="rowItem_up-Image" style={{width: '110px', height:'140px'}} src={img2} alt="" />
+                            <div className="textOverlay">
+                                <span className="imageText imageText2">РАСПРЕДЕЛЕНИЕ</span>
+                            </div>
+                        </div>
                     </button>
                     <button onClick={() => onNavigate("MyTeam")} className="rowItem">
-                        <img className = 'rowItem_up-Image' src={img3} alt="" /> 
-                        <span className='imageText imageText3'>МОЯ КОМАНДА</span>                     
+                        <div className="imageContainer" style={{width: '110px', height:'140px'}}>
+                            <img className="rowItem_up-Image" style={{width: '110px', height:'140px'}} src={img3} alt="" />
+                            <div className="textOverlay">
+                                <span className="imageText imageText2">МОЯ КОМАНДА</span>
+                            </div>
+                        </div>
                     </button>
+
                 </div>
                 <div className="row">
                     <button onClick={() => onNavigate("Payment")} className="rowItem">
-                        <img className = 'rowItem_down-Image' src={img4} alt="" /> 
-                        <span className='imageText imageText4'>ПЛАТЕЖИ</span>                     
+                    <div className="imageContainer" style={{width: '171px', height:'134px'}}>
+                            <img className="rowItem_up-Image" style={{width: '171px', height:'134px'}} src={img4} alt="" />
+                            <div className="textOverlay" style={{width: '111px', height:'18px'}}>
+                                <span className="imageText imageText2">ПЛАТЕЖИ</span>
+                            </div>
+                        </div>                  
                     </button>
                     <button className="rowItem">
-                        <img className = 'rowItem_down-Image' src={img5} alt="" /> 
-                        <span className='imageText imageText5'>РАСЧЁТ ДОХОДА</span>                     
+                    <div className="imageContainer" style={{width: '171px', height:'134px'}}>
+                            <img className="rowItem_up-Image" style={{width: '171px', height:'134px'}} src={img5} alt="" />
+                            <div className="textOverlay" style={{width: '111px', height:'18px'}}>
+                                <span className="imageText imageText2">РАСЧЁТ ДОХОДА</span>
+                            </div>
+                        </div>                  
                     </button>
                 </div>
             </div>

@@ -1,20 +1,46 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 @import "../styles/global.css";
 .homeInner{
     padding-top:15px;
     font-family: 'Helvetica'; 
+    display:-webkit-box; 
+    display:-ms-flexbox; 
     display:flex;
-    flex-direction: column;
-    align-items:center
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align:center;
+        -ms-flex-align:center;
+            align-items:center
 }
 .nav{
+    display:-webkit-box;
+    display:-ms-flexbox;
     display:flex;
-    flex-direction:column;
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+        -ms-flex-direction:column;
+            flex-direction:column;
     gap:16px;
 }
 .row{
+    display:-webkit-box;
+    display:-ms-flexbox;
     display:flex;
-    flex-direction:row;
-    align-items:center;
+    -webkit-box-orient:horizontal;
+    -webkit-box-direction:normal;
+        -ms-flex-direction:row;
+            flex-direction:row;
+    -webkit-box-align:center;
+        -ms-flex-align:center;
+            align-items:center;
     gap:17px;
 }
 .rowItem{
@@ -23,36 +49,7 @@
     color: #fff;
     background: none;
     border: none;
-}
-.imageText {
-    position: absolute;
-    letter-spacing: 1px;
-    font-size:9px;
-    font-weight:700;
-    line-height:18px;
-}
-.imageText1{
-    left: 0px;
-    top:104px;
-}
-.imageText2{
-    left: 8px;
-    top:116px;
-}
-.imageText3{
-    width:101px;
-    left: 11px;
-    top:116px;
-}
-.imageText4{
-    width:53px;
-    left: 59px;
-    top:104px;
-}
-.imageText5{
-    width:105px;
-    left: 40px;
-    top:104px;
+    padding:0;
 }
 .rowItem_up-Image{
     width: 110px;
@@ -68,12 +65,18 @@
     height: 58px;
 }
 .systemButton_Inner{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     height:100%;
     background-color:#000;
     border-radius:10px;
-    align-items:center;
-    justify-content:space-between;
+    -webkit-box-align:center;
+        -ms-flex-align:center;
+            align-items:center;
+    -webkit-box-pack:justify;
+        -ms-flex-pack:justify;
+            justify-content:space-between;
     padding: 0 10px;
 }
 .systemText{
@@ -86,18 +89,33 @@
     margin-top: 18px;
 }
 .userInner{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction:column;
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+        -ms-flex-direction:column;
+            flex-direction:column;
     height:100%;
 }
 .columns{
+    display:-webkit-box;
+    display:-ms-flexbox;
     display:flex;
-    flex-direction:row;
+    -webkit-box-orient:horizontal;
+    -webkit-box-direction:normal;
+        -ms-flex-direction:row;
+            flex-direction:row;
     gap:16px;
 }
 .rightColumns{
+    display:-webkit-box;
+    display:-ms-flexbox;
     display:flex;
-    flex-direction:column;
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+        -ms-flex-direction:column;
+            flex-direction:column;
 }
 .levelsButton{
     width: 171px;
@@ -111,10 +129,16 @@
     height: 100%;
     padding:0 10px;
     border-radius:10px;
+    display:-webkit-box;
+    display:-ms-flexbox;
     display:flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     background-color: #000;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 .newsText{
     font-size: 15px;
@@ -133,12 +157,18 @@
     margin-top:52px;
 }
 .levelsButton_Inner{
+    display:-webkit-box;
+    display:-ms-flexbox;
     display:flex;
     position:relative;
+    background: -webkit-gradient(linear, left top, left bottom, from(#000000), to(#212031));
+    background: -o-linear-gradient(top, #000000 0%, #212031 100%);
     background: linear-gradient(180deg, #000000 0%, #212031 100%);
     border-radius: 10px;
     height:100%;
-    align-items: end;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: end;
 }
 .levelsButtonText{
     margin-left:17px;
@@ -149,12 +179,21 @@
     height: 261px;
 }
 .leftColumnsInner{
+    background: -webkit-gradient(linear, left top, left bottom, from(#000000), to(#212031));
+    background: -o-linear-gradient(top, #000000 0%, #212031 100%);
     background: linear-gradient(180deg, #000000 0%, #212031 100%);
     height:100%;
     border-radius:10px;
+    display:-webkit-box;
+    display:-ms-flexbox;
     display:flex;
-    flex-direction: column;
-    align-items:center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align:center;
+        -ms-flex-align:center;
+            align-items:center;
 }
 .userInfo{
     margin-top:10px;
@@ -164,9 +203,15 @@
     width:31px;
     height:31px;
     background: #1B1B1B;
+    display:-webkit-box;
+    display:-ms-flexbox;
     display:flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     border-radius:10px;
 }
 .logoPhoto{
@@ -176,14 +221,25 @@
 .nickname{
     width: 116px;
     height: 31px;
+    background: -webkit-gradient(linear, left top, right top, from(#1B1B1B), to(#060608));
+    background: -o-linear-gradient(left, #1B1B1B 0%, #060608 100%);
     background: linear-gradient(90deg, #1B1B1B 0%, #060608 100%);
     border-radius: 5px;
+    display:-webkit-box;
+    display:-ms-flexbox;
     display:flex;
-    align-items:center;
+    -webkit-box-align:center;
+        -ms-flex-align:center;
+            align-items:center;
 }
 .logo{
+    display:-webkit-box;
+    display:-ms-flexbox;
     display:flex;
-    flex-direction:row;
+    -webkit-box-orient:horizontal;
+    -webkit-box-direction:normal;
+        -ms-flex-direction:row;
+            flex-direction:row;
     gap:5px;
 }
 .nicknameText{
@@ -196,15 +252,29 @@
     margin-top:6px;
     width: 152px;
     height: 47px;
+    background: -webkit-gradient(linear, left top, right top, from(#FFCB33), to(#040404));
+    background: -o-linear-gradient(left, #FFCB33 0%, #040404 100%);
     background: linear-gradient(90deg, #FFCB33 0%, #040404 100%);
     border-radius: 5px;
+    display:-webkit-box;
+    display:-ms-flexbox;
     display:flex;
-    flex-direction:column;
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+        -ms-flex-direction:column;
+            flex-direction:column;
 }
 .inviteInfo{
+    display:-webkit-box;
+    display:-ms-flexbox;
     display:flex;
-    flex-direction:row;
-    justify-content:space-between;
+    -webkit-box-orient:horizontal;
+    -webkit-box-direction:normal;
+        -ms-flex-direction:row;
+            flex-direction:row;
+    -webkit-box-pack:justify;
+        -ms-flex-pack:justify;
+            justify-content:space-between;
     margin: 0 10px;
     margin-top:7px;
 }
@@ -233,16 +303,28 @@
 }
 .team{
     margin-top:6px;
+    display:-webkit-box;
+    display:-ms-flexbox;
     display:flex;
-    flex-direction:column;
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+        -ms-flex-direction:column;
+            flex-direction:column;
     width: 152px;
     height: 145px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#1B1B1B), to(#212031));
+    background: -o-linear-gradient(top, #1B1B1B 0%, #212031 100%);
     background: linear-gradient(180deg, #1B1B1B 0%, #212031 100%);
     border-radius:5px;
 }
 .teamItem{
+    display:-webkit-box;
+    display:-ms-flexbox;
     display:flex;
-    flex-direction:row;
+    -webkit-box-orient:horizontal;
+    -webkit-box-direction:normal;
+        -ms-flex-direction:row;
+            flex-direction:row;
 }
 .teamItemText{
     font-size: 8px;
@@ -252,9 +334,15 @@
 .teamItemForm{
     width: 74px;
     height: 14px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items:center;
-    justify-content: space-between;
+    -webkit-box-align:center;
+        -ms-flex-align:center;
+            align-items:center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     border-radius:3px;
 }
 .teamItemFormText{
@@ -298,23 +386,43 @@
     margin-top:8px;
 }
 .teamItems{
+    display:-webkit-box;
+    display:-ms-flexbox;
     display:flex;
-    flex-direction:column;
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+        -ms-flex-direction:column;
+            flex-direction:column;
     margin-top:13px;
-    align-items:center;
+    -webkit-box-align:center;
+        -ms-flex-align:center;
+            align-items:center;
 }
 .teamItem{
+    display:-webkit-box;
+    display:-ms-flexbox;
     display:flex;
     gap:28px;
-    align-items:center;
+    -webkit-box-align:center;
+        -ms-flex-align:center;
+            align-items:center;
     margin-bottom:4px;
 }
 
 .footer{
+    display:-webkit-box;
+    display:-ms-flexbox;
     display:flex;
-    flex-direction:row;
-    align-items:center;
-    justify-content:space-between;
+    -webkit-box-orient:horizontal;
+    -webkit-box-direction:normal;
+        -ms-flex-direction:row;
+            flex-direction:row;
+    -webkit-box-align:center;
+        -ms-flex-align:center;
+            align-items:center;
+    -webkit-box-pack:justify;
+        -ms-flex-pack:justify;
+            justify-content:space-between;
     margin-top:30px;
 }
 .footerText{
@@ -332,4 +440,48 @@
 font-size: 16px;
 font-weight: 700;
 line-height: 18px;
+}
+.rowItem {
+    position: relative;
+}
+
+.imageContainer {
+    position: relative;
+    width: 106px; /* ширина контейнера */
+}
+
+.rowItem_up-Image {
+    width: 100%; /* изображение адаптируется к ширине контейнера */
+}
+
+.textOverlay {
+    position: absolute;
+    bottom: 6px; /* Перемещает блок с текстом вниз */
+    left: 50%;
+    transform: translateX(-50%); /* Смещение по горизонтали для центрирования */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(4px); /* эффект размытия */
+    background-color: rgba(0, 0, 0, 0.3); /* полупрозрачный фон */
+    width: 103px;
+    height: 18px;
+    border-radius: 10px;
+    z-index: 1;
+}
+.imageText1 {
+    color: #fff;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 9px;
+    font-weight: 700;
+    line-height: 18px;
+}
+.imageText2 {
+    color: #fff;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 9px;
+    font-weight: 700;
+    line-height: 18px;
 }

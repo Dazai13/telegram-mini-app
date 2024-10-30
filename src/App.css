@@ -42,3 +42,7 @@
     transform: rotate(360deg);
   }
 }
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
